@@ -1,0 +1,26 @@
+package boiling1;
+import java.util.Scanner;
+
+public class Boiling1 {
+
+    
+    public static void main(String[] args) {
+       
+        System.out.println("Give in the temperature");
+        Scanner input = new Scanner(System.in);
+        int temp = input.nextInt();
+        
+        if (temp>=100)
+        {
+            System.out.println("Water is boiling");
+        }
+        else if (temp<=10)
+        {
+            System.out.println("Water freezes");
+        }
+        else{
+            System.out.println("Water is in the normal state");
+        }
+    }
+    
+}
